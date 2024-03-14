@@ -5,11 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --target lib --entry src/components/icon/index.js --name mIcon",
+    "lib": "vue-cli-service build --target lib --name mIcon --dest lib/dist packages/icon/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "remixicon": "^4.2.0",
+    "vue": "^2.6.14",
+    "vue2-m-icon": "^0.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -19,7 +23,10 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "svg-sprite-loader": "^6.0.11",
+    "svg-url-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack-cli": "^5.1.4"
   },
   "eslintConfig": {
     "root": true,
