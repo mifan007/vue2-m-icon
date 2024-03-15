@@ -36,20 +36,19 @@ Vue.use(micon)
 ```vue
 
 <template>
-    <m-icon @onChoose="choose" @onCopy="copy"></m-icon>
+    <m-icon @onChoose="choose" @onCopy="copy" language="cn"></m-icon>
 </template>
 ```
+### PROPS
+
+属性名|说明|类型|可选项|默认值
+-|-|-|-|-
+language|语言类型|string|cn、en|cn
 
 ### 方法事件
 
-选择事件
-onChoose
-示例数据
-ri-arrow-go-back-fill
+事件名|说明|类型|返回值
+-|-|-|-
+onChoose|选择图标|string|'ri-file-copy-2-fill'
+onCopy|复制图标|string|'<i class="ri-arrow-down-circle-fill 2"></i>'
 
-复制事件
-onCopy
-示例数据
-```
-<i class="ri-arrow-down-circle-fill 2"></i>
-```
