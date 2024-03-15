@@ -50,5 +50,5 @@ language|语言类型|string|cn、en|cn
 事件名|说明|类型|返回值
 -|-|-|-
 onChoose|选择图标|string|'ri-file-copy-2-fill'
-onCopy|复制图标|string|'<i class="ri-arrow-down-circle-fill 2"></i>'
+onCopy|复制图标|string|'\<i class="ri-arrow-down-circle-fill 2"\>\<\/i\>'
 
