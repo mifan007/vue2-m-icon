@@ -11,9 +11,9 @@ mIcon 是个开源图标选择插件。插件采用[remixicon](https://remixicon
 仓库地址
 [https://github.com/mifan007/vue2-m-icon.git](https://github.com/mifan007/vue2-m-icon.git)
 
-```html
+
 (demo.jpg)
-```
+
 
 #### 安装引入
 
